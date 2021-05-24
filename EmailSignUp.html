@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Email Sign Up Form</title>
+    <link rel="stylesheet" href="EmailSignUp.css" type="text/css">
+</head>
+<body>
+    
+<h2>Would you like to receive discount and promotional offers via email?</h2>
+<h4>Please sign up using the form below!</h4>
+
+<!-- horizontal menu that leads to other 3 sub pages--> 
+<ul id="nav">
+    <li><a href="HomePage.html">Home</a></li>
+    <li><a href="Menu.html">Menu</a></li>
+    <li><a href="EmailSignUp.html">Contact Info</a></li>
+    <li><a href="Reviews.html">Reviews</a></li>
+  </ul>
+
+  <p></p>
+  <p></p>
+  <p></p>
+  <p></p>
+  <p></p>
+
+  <div id="form">
+    <form action="http://web.engr.oregonstate.edu/~zhangluy/tools/class-content/form_tests/check_request.php" method ="get">
+        <!--address for submission with GET method-->
+        <fieldset>
+            <legend>Enter your information below:</legend> <!--Form title-->
+    
+            <fieldset>
+                <label>Email address: 
+                <input type="email" name="email_input"> <!--text input-->
+                </label>
+            </fieldset>
+            <p>
+    
+            <fieldset>
+                <label>Name:
+                <input type="text" name="name_input"> <!--name input-->
+                </label>
+            </fieldset>
+            <p>
+    
+            <fieldset>
+                <label>Phone number::
+                <input type="text" name="phone_number_input"> <!--password input-->
+                </label>
+            </fieldset>
+            <p>
+        
+            <fieldset>
+                <label>Opt in for text messaging?</label>
+                <br />
+                <!--Set of radio inputs named "candy"-->
+                <label>
+                    <dl>
+                        <dt>
+                            <input type="radio" name="yes" 
+                            value="Yes" />Yes</label>
+                        </dt>
+                        <p>
+                        <dt>
+                            <input type="radio" name="no" 
+                            value="No" />No</label>
+                        </dt>
+                        <p>
+                        <dt>
+                            <button>Submit</button>
+                        </dt>
+            </fieldset>
+        </fieldset>
+    
+    </form>
+</div>
+    
+</body>
+</html>

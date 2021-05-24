@@ -1,0 +1,32 @@
+/* make email sign up page navigation menu horizontal*/
+
+body {background-color: #D4EFE9;}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 10px;
+  }
+
+  li {
+    float: left;
+  }
+  
+  a {
+    display: block;
+    padding: 8px;
+    background-color: #dddddd;
+  }
+
+  * {box-sizing:border-box;
+    text-align: center}
+
+  #nav {text-align: center;
+    width: 300px;
+    margin-left: auto;
+margin-right: auto;}
+
+#form {padding: 40px;
+margin-left: auto;
+margin-right: auto;
+width: 500px}

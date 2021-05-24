@@ -1,0 +1,36 @@
+/* make reviews page navigation menu horizontal*/
+body {background-color: #D4EFE9;}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 10px;
+  }
+
+  li {
+    float: left;
+  }
+  
+  a {
+    display: block;
+    padding: 8px;
+    background-color: #dddddd;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  * {box-sizing:border-box;
+    text-align: center;}
+
+    #nav {text-align: center;
+        width: 300px;
+        margin-left: auto;
+    margin-right: auto;}
+
+    #reviews {padding: 50px}
+
+    #yelp {text-align: center;
+    width: 100px;
+margin-left: auto;
+margin-right: auto;}
